@@ -9,3 +9,14 @@ p{
     font-weight: 300;
     color: #111;
 }
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bg.jpg);
+    background-size: cover;
+}
