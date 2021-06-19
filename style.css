@@ -25,3 +25,7 @@ p{
     max-width: 900px;
     text-align: center;
 }
+.banner .content h2{
+    font-size: 5em;
+    color: #fff;
+}
