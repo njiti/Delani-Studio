@@ -20,3 +20,8 @@ p{
     background: url(https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true);
     background-size: cover;
 }
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
