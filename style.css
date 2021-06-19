@@ -45,3 +45,6 @@ p{
     letter-spacing: 2px;
     transition: 0.5s;
 }
+.btn:hover{
+    letter-spacing: 4px;
+}
