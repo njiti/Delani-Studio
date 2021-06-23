@@ -40,19 +40,32 @@
                        
                     </p>
                 </div>
-                <div class="col5">
-                    <!--<div class="box">-->
-                        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true">
+                <div class="container">
+                    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true" style="width:100%;">
+                    <div class="centered">
+                        <h2>SERVICES</h2>
+                        <br>
+                        <h6>Before we sign a contract or write a line of code our time needed to understand your product
+                            <br>
+                            The outcome of this scoping session is proposal or high-level statement of work
+                            <br>
+                            based on your requirements,we can provide a complete offering or just the pieces you heed.
+                        </h6> 
+                  </div>
+                </div>
+                <!--<div class="col5">
+                    <div class="box">
+                        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true">-->
                     </div>
                 </div>
             </div>
         </section>
         <section class="menu" id="menu">
             <div class="title">
-                <h2 class="titleText"><span>P</span>ORTFOLIO</h2>
-                <p>jknfokuhfuoqiksfufakgfhfuokcbuigakbihskvbkbkbvibifba</p>
+                <h2 class="titleText"><span>W</span>HAT WE DO</h2>
             </div>
 
+            <div onclick="show_hide()">
             <div class="content">
                 <div class="box">
                     <div class="imgBx">
@@ -76,11 +89,11 @@
                         </div>
                      </div>
                  </div>
+            </div>
         </section>
         <section class="menu" id="menu">
             <div class="title">
                 <h2 class="titleText"><span>P</span>ORTFOLIO</h2>
-                <p>jknfokuhfuoqiksfufakgfhfuokcbuigakbihskvbkbkbvibifba</p>
             </div>
 
             <div class="content">
@@ -128,12 +141,19 @@
                      </div>
                  </div>
 
-                 <div class="col5">
-                    <!--<div class="box">-->
-                        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true">
-                    </div>
-                </div>
-            </div>
+                 <section class="expert" id="expert">
+                 <div class="container">
+                    <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true" style="width:100%;">
+                    <div class="centered">
+                        <h2>SERVICES</h2>
+                        <br>
+                        <h6>Before we sign a contract or write a line of code our time needed to understand your product
+                            <br>
+                            The outcome of this scoping session is proposal or high-level statement of work
+                            <br>
+                            based on your requirements,we can provide a complete offering or just the pieces you heed.
+                        </h6> 
+                  </div>
         </section>
 
         </section>
@@ -142,37 +162,52 @@
             const header = document.querySelector('header');
             header.classList.toggle("sticky", window.scrollY > 0)
         });
+
+        var a;
+        function show_hide()
+    {
+        if(a==1)
+        {
+            document.getElementById("image").style.display="inline";
+            return a=0;
+        }
+        else{
+            document.getElementById("image").style.display="none";
+            return a=1;
+        }
+    }
         </script>
 
         <!--glass-morphism-->
+        <section class="testimonials" id="testimonials">
+        <h2 class="titleText"><span>T</span>estimonials</h2>
         <div class="container">
             <div class="card">
               <div class="content">
-              <h2>01</h2>
-              <h3>Card One</h3>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmxXE7fsBvgcV_TS7giyiHPlvZE9x2Al4FXeYQJwWOqJQsWAvE2Lon2lmWfjGu4CqNc-o&usqp=CAU">
               <p>very happy person. Im kinda the description of cool</p>
               <a href="#">Read More about us</a>
             </div>
           </div>
           <div class="card">
             <div class="content">
-            <h2>02</h2>
-            <h3>Card Two</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZDabpYnE3St-xoZZgVSGgRMIn3km-RjzE4YooiGV5R4kklAzNzb8GVZwLGCHzPW4puQ&usqp=CAU">
             <p>very happy person. Im kinda the description of cool</p>
             <a href="#">Read More</a>
           </div>
         </div>
         <div class="card">
           <div class="content">
-          <h2>03</h2>
-          <h3>Card Three</h3>
+          <img src="data:image/png;base64,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">
           <p>very happy person. Im kinda the description of cool</p>
           <a href="#">Read More about us</a>
         </div>
       </div>
       </div>
-      
+      </section>
+
         <!--icons-->
+        <section class="contacts" id="contacts">
         <ul>
             <li>
                 <a href="https://youtu.be/s6_azdBnAlU" target="blank">
@@ -194,10 +229,11 @@
             </li>
             <li>
                 <a href="https://www.whatsapp.com/?lang=en" target="blank">
-                   <img src="https://img.icons8.com/plumpy/2x/like.png">
+                   <img src="https://img.icons8.com/metro/2x/phone-disconnected.png">
                 <span> - Contact </span>
             </a>
             </li>
         </ul>
+        </section>
     </body>
 </html>
