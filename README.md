@@ -1,6 +1,6 @@
 # Delani-Studio ip
 
-#### This is a simple HTML. CSS project about my favorite pet, 2021
+#### This is a simple HTML. CSS project , 2021
 
 #### By Kamau Francis Kanyua
 
