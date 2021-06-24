@@ -1,32 +1,35 @@
-Dlani-Studio
+# Delani-Studio ip
 
-This is a simple website that is ment to advertise Delani studio as a company and what they offer.
+#### This is a simple HTML. CSS project about my favorite pet, 2021
 
-By Kamau Francis Kanyua
+#### By Kamau Francis Kanyua
 
-Description:
-
+## Description
 This website is ment to advertise Delani studio as company. Containing how they work and a clear desciption of how they treat their customers.
-Live link:https://njiti.github.io/Delani-Studio/
 
+## Setup/Installation Requirements
+* Clone the repo
+```
+$ git clone https:https://github.com/njiti/Delani-Studio.git
+```
+* Open  the project on VS Code/ your editor of choice
+* Open the project on live server
+* 
+## Known Bugs
+No known bugs yet
 
-cd Delani-studio
+## Technologies Used
+* HTML
+* CSS
+* Javascript
 
-code . or atom . based on the text editor you have.
+##Live link
+https://njiti.github.io/Delani-Studio/
 
-Delani-Studio project This is a simple HTML. CSS project on my IP, 2021 By Kamau Francis Kanyua
+## Support and contact details
+If you want to contact me, email me on  kamaukan77@gmail.com
 
-Description This website contains information about Delani Studio as a company and what they have to offer. 
+### License
+[MIT Licence](https://choosealicense.com/licenses/mit/)
+Copyright (c) 2021 Kamau Francis Kanyua.
 
-Setup/Installation Requirements Installation / Setup instruction Open Terminal {Ctrl+Alt+T}
-Open the project on VS Code/ your editor of choice Open the project on live server Known Bugs The navigation bar does not contain finnished code. Unable to centre the picture and table.
-
-Clone the repo:
-https://github.com/njiti/Delani-Studio.git
-
-
-Technologies Used HTML CSS Javascript 
-
-Support and contact details If you want to contact me, email me on: kamaukan77@gmail.com
-
-License MIT Licence Copyright (c) 2021 Kanyua Inc.
