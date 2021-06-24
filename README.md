@@ -7,7 +7,7 @@ By Kamau Francis Kanyua
 Description:
 
 This website is ment to advertise Delani studio as company. Containing how they work and a clear desciption of how they treat their customers.
-Live link: https://github.com/njiti/Delani-Studio.git
+Live link:https://github.com/njiti/Delani-Studio.git
 
 
 cd Delani-studio
@@ -22,7 +22,7 @@ Setup/Installation Requirements Installation / Setup instruction Open Terminal {
 Open the project on VS Code/ your editor of choice Open the project on live server Known Bugs The navigation bar does not contain finnished code. Unable to centre the picture and table.
 
 Clone the repo:
-https://github.com/njiti/MySimpleFirstIP.git
+https://github.com/njiti/Delani-Studio.git
 
 
 Technologies Used HTML CSS Javascript 
