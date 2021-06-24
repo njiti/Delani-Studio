@@ -12,7 +12,7 @@
             <ol class="navigation">
                 <li><a href="#banner">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
+                <li><a href="#menu">Services</a></li>
                 <li><a href="#expert">Expert</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -24,7 +24,7 @@
                 <br>
                 <h2>To Delani Studio</h2>
                 <p>Amazing people are making amazing designs in a fun environment</p>
-                <a href="#" class="btn">Our Menu</a>
+                <a href="#" class="btn">Our Services</a>
             </div>
         </section>
         <section class="about" id="about">
@@ -61,15 +61,20 @@
             </div>
         </section>
         <section class="menu" id="menu">
+            <div class="image">
             <div class="title">
                 <h2 class="titleText"><span>W</span>HAT WE DO</h2>
             </div>
-
-            <div onclick="show_hide()">
             <div class="content">
                 <div class="box">
                     <div class="imgBx">
-                        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/product_icon.png?raw=true">
+                        <img class="image__img" src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/product_icon.png?raw=true">
+                        <div class="image__overlay">
+                            <div class="image__title">Bricks</div>
+                            <p class="image__description">
+                                Here we have a brick wall.
+                            </p>
+                        </div>
                     </div>
                     <div class="text">
                         </div>
@@ -90,9 +95,11 @@
                      </div>
                  </div>
             </div>
+          </div>  
         </section>
         <section class="menu" id="menu">
             <div class="title">
+
                 <h2 class="titleText"><span>P</span>ORTFOLIO</h2>
             </div>
 
@@ -140,26 +147,38 @@
                         </div>
                      </div>
                  </div>
-
+                <form action="https://formspree.io/f/{form_id}" method="post">
                  <section class="expert" id="expert">
                  <div class="container">
                     <img src="https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true" style="width:100%;">
                     <div class="centered">
-                        <h2>CONTACT US</h2>
-                        <br>
-                        <form action="/action_page.php">
-                            <label for="email">Enter your email:</label>
-                            <input type="email" id="email" name="email">
-                            <input type="submit">
-                          </form>
-                          <br>
-                          <form action="/action_page.php">
-                            <label for="phone">Enter a phone number:</label><br><br>
-                            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
-                            <small>Format: 123-45-678</small><br><br>
-                            <input type="submit">
-                          </form>
-                  </div>
+                        <section>
+                            <h2>CONTACT US</h2>
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="fistName">
+                                
+                                <div class="form-group">
+                                    <label for="lastNamer">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" rows="10"></textarea>
+                                    </div>
+
+                                    <button type="submit">Submit</button>
+                            </div>           
+                            <div id="status" class="success">Try Again If You Do Not Get An Email.</div>
+                            <!--<div id="status" class="error">Please Fill in As Required.</div>-->
+                        </section>
+                    </form>        
         </section>
 
         </section>
