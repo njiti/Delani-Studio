@@ -7,7 +7,7 @@ By Kamau Francis Kanyua
 Description:
 
 This website is ment to advertise Delani studio as company. Containing how they work and a clear desciption of how they treat their customers.
-Live link:https://github.com/njiti/Delani-Studio.git
+Live link:https://njiti.github.io/Delani-Studio/
 
 
 cd Delani-studio
